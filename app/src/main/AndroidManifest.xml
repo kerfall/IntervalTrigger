@@ -11,9 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.Difetis.IntervalTrigger.MainActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -21,4 +21,5 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" ></uses-permission>
     <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
     <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 </manifest>

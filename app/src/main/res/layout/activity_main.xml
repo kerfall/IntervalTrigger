@@ -5,8 +5,8 @@
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.Difetis.IntervalTrigger.MainActivity"
-        android:background="#000000">
+        android:background="#000000"
+        tools:context="com.Difetis.IntervalTrigger.MainActivity">
     <TextView
         android:id="@+id/ActualTime"
         android:layout_width="wrap_content"
@@ -14,37 +14,37 @@
         android:layout_centerHorizontal="true"
         android:text="00:00"
         android:textColor="#FFFFFF"
-        android:textSize="8dp"
+        android:textSize="10dp"
         android:textStyle="bold" />
     <Button
         android:id="@+id/buttonStop"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/ActualTime"
+        android:layout_centerHorizontal="true"
         android:text="Reset" />
 
         <TextView
             android:id="@+id/Chrono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonStop"
             android:layout_centerHorizontal="true"
             android:clickable="true"
             android:onClick="onChronoClick"
             android:text="00:00:00"
             android:textColor="#FFFFFF"
             android:textSize="54dp"
-            android:textStyle="bold"
-            android:layout_below="@+id/buttonStop" />
+            android:textStyle="bold" />
 
     <ListView
         android:id="@+id/lapList"
-        android:background="#000000"
-        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/Chrono" />
+        android:layout_below="@+id/Chrono"
+        android:layout_centerHorizontal="true"
+        android:background="#000000" />
 
     </RelativeLayout>
 

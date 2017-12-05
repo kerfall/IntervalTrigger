@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Interval Trigger</string>
 
-    <string name="title_activity_main1">MainActivity1</string>
+    <string name="title_activity_main1">StopWatch</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
